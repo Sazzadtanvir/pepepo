@@ -1,1 +1,249 @@
-# pepepo
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sazzadul Islam Tanvir - Freelancer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #F4F4F4;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      color: #0A2463;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0A2463;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #0A2463;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #FF6B6B;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      margin: 20px 0;
+      background: #FFFFFF;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-card {
+      background: #FFFFFF;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .skill-card i {
+      font-size: 2rem;
+      color: #FF6B6B;
+      margin-bottom: 10px;
+    }
+
+    /* Contact Form */
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input, form textarea, form select {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #CCC;
+      border-radius: 4px;
+    }
+
+    form button {
+      padding: 10px;
+      background: #FF6B6B;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    form button:hover {
+      background: #0A2463;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0A2463;
+      color: #FFFFFF;
+      margin-top: 40px;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .fade-in:nth-child(1) { animation-delay: 0.2s; }
+    .fade-in:nth-child(2) { animation-delay: 0.4s; }
+    .fade-in:nth-child(3) { animation-delay: 0.6s; }
+    .fade-in:nth-child(4) { animation-delay: 0.8s; }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Homepage -->
+  <section id="home" class="fade-in">
+    <h1>Turning Your Ideas into Results with Reliable Freelance Services</h1>
+    <p>Hi, I'm Sazzadul Islam Tanvir, a dedicated and skilled freelancer specializing in writing, data entry, transcription, virtual assistance, online selling, and social media marketing. Over the past few months, I’ve honed my skills through self-learning and hands-on experience, allowing me to deliver high-quality services tailored to the needs of each client.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="fade-in">
+    <h2>What I Do Best</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fas fa-pen"></i>
+        <h3>Writing</h3>
+        <p>Blog writing, article writing, copywriting, etc.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-table"></i>
+        <h3>Data Entry</h3>
+        <p>Excel, Google Sheets, etc.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-headphones"></i>
+        <h3>Transcription</h3>
+        <p>Transcription software, fast typing speed, etc.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-calendar"></i>
+        <h3>Virtual Assistance</h3>
+        <p>Calendar management, email management, etc.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-shopping-cart"></i>
+        <h3>Online Selling</h3>
+        <p>E-commerce platforms, product listing, etc.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-hashtag"></i>
+        <h3>Social Media Marketing</h3>
+        <p>Platforms (Facebook, Instagram, LinkedIn), tools (Canva, Hootsuite), etc.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="fade-in">
+    <h2>My Work</h2>
+    <p>Stay tuned for examples of my work!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-in">
+    <h2>Let’s Connect</h2>
+    <div class="contact-info">
+      <p>Email: sazzadv@outlook.com</p>
+      <p>Phone: +8801945542655</p>
+    </div>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <select name="service" required>
+        <option value="">Select a Service</option>
+        <option value="writing">Writing</option>
+        <option value="data-entry">Data Entry</option>
+        <option value="transcription">Transcription</option>
+        <option value="virtual-assistance">Virtual Assistance</option>
+        <option value="online-selling">Online Selling</option>
+        <option value="social-media-marketing">Social Media Marketing</option>
+      </select>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Sazzadul Islam Tanvir. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Add smooth scrolling to navigation links
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
